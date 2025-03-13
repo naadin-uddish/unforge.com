@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uddish Naadin Peter - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Uddish Naadin Peter</h1>
+            <div class="passport-photo">
+                <img src="C:\Users\uddis\Desktop\web\your image.jpg" alt="Your Photo">
+            </div>
+        </div>
+        <nav 1>
+            <a href="https://www.oracle.com/index.html" target="_blank" class="nav-button">
+                <img src="C:\Users\uddis\Desktop\web\oracle logo.png" alt="Oracle Logo" class="oracle-logo">
+            </a>
+        </nav 1>
+    </header>
+
+    <section class="hero">
+        <p>Software Engineer</p>
+        <p>Building Efficient Solutions with Oracle Fusion Applications</p>
+        <a href="#experience" class="btn">View Experience</a>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Highly motivated Software Engineer with a passion for developing and implementing efficient solutions using
+            Oracle Fusion Applications. Eager to apply my knowledge and skills to contribute to innovative projects.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fas fa-database"></i>
+                <h3>Oracle Fusion Applications</h3>
+                <p>Expertise in implementing and configuring Oracle Fusion Applications.</p>
+                <a href="C:\Users\uddis\Desktop\web\oracle training certification.png" target="_blank"
+                    class="certificate-btn">Certificate</a>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Proficient in structuring web content using HTML.</p>
+                <a href="#" target="_blank" class="certificate-btn">Certificate</a>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Skilled in styling web pages using CSS for visually appealing designs.</p>
+                <a href="#" target="_blank" class="certificate-btn">Certificate</a>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-code"></i>
+                <h3>PL/SQL</h3>
+                <p>Basic understanding of PL/SQL for database interactions.</p>
+                <a href="#" target="_blank" class="certificate-btn">Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Oracle Fusion Application Training Program on Supply Chain Management</h3>
+                <p>3 Months</p>
+                <ul>
+                    <li>Gained practical experience in Oracle Fusion Applications.</li>
+                    <li>Learned core concepts of Supply Chain Management.</li>
+                    <li>Developed foundational skills in application configuration and usage.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Tech Leads IT Training</h3>
+                <p>
+                    Gained experience at:
+                    <a href="#" onclick="showAddressPopup()">Tech Leads IT Training</a>
+                </p>
+                <p>
+                    Contact:
+                    <a href="mailto:info@techleadsit.com">info@techleadsit.com</a>
+                    | <a href="tel:+918125323232">+91 8125 32 32 32</a>
+                </p>
+            </li>
+            <li>
+                <h3>Faculty Experience</h3>
+                <p>
+                    Guide :
+                    <strong>Krishna.V</strong> - Experience: 18+ years on Oracle Applications
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="additional-projects" id="additional-projects">
+        <h2 class="additional-projects-heading">Additional Projects</h2>
+        <div class="additional-projects-grid">
+            <div class="additional-projects-item" data-project="accident">
+                <i class="fas fa-car" onclick="showProjectPopup('accident')"></i>
+                <h3>Accident Avoiding System</h3>
+                <p>Developed an intelligent precaution device for automobiles...</p>
+            </div>
+            <div class="additional-projects-item" data-project="cancer">
+                <i class="fas fa-medkit" onclick="showProjectPopup('cancer')"></i>
+                <h3>Cancer Detection</h3>
+                <p>Developed a system for cancer detection using AI...</p>
+            </div>
+            <div class="additional-projects-item" data-project="agriculture">
+                <i class="fas fa-seedling" onclick="showProjectPopup('agriculture')"></i>
+                <h3>Automated Agriculture</h3>
+                <p>Developed automated robots for agriculture work...</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align:center; padding:20px;">
+        <a href="javascript:void(0);" class="contact-link" onclick="showContactPopup()">Contact Us</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Uddish Naadin Peter. All rights reserved.</p>
+    </footer>
+
+    <div id="projectPopup" class="popup">
+        <h3 id="projectPopupTitle"></h3>
+        <p id="projectPopupDetails"></p>
+        <button onclick="hideProjectPopup()">Close</button>
+    </div>
+
+    <div id="contactPopup" class="popup contact-popup">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <div class="contact-info-item">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Date of Birth: 17.03.2001</span>
+        </div>
+        <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <span>Contact No: +91 7708424563</span>
+        </div>
+        <div class="contact-info-item">
+            <i class="fas fa-envelope"></i>
+            <span>Email ID: <a href="mailto:uddishnaadinu1@gmail.com">uddishnaadinu1@gmail.com</a></span>
+        </div>
+        <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Permanent Address: No.24, Aathipatti, Boothipuram Post, Bodinayakanur Taluk, Theni-625531</span>
+        </div>
+        <div class="contact-info-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn: <a href="www.linkedin.com/in/uddish-37bab321a">www.linkedin.com/in/uddish-37bab321a</a></span>
+        </div>
+    </div>
+    <form action="mailto:uddishnaadin@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button class="form__button" type="submit">Send Message</button>
+    </form>
+    <button class="close-popup-button" onclick="hideContactPopup()">Close</button>
+</div>
+
+    <div id="popupOverlay" class="popup-overlay"></div>
+
+    <script>
+        // Project Details Popup
+        function showProjectPopup(project) {
+            let title = "";
+            let details = "";
+
+            switch (project) {
+                case 'accident':
+                    title = "Accident-Avoidance System Using Artificial Intelligence (MAR 2022)";
+                    details = `
+                                Accident-Avoidance System Using Artificial Intelligence                                
+                                                                
+                                This system is a precaution device which can be installed at any automobile vehicle which is a collective of sensors like smell sensor, vibration sensor, speed sensor, object detection sensor, distance measurement sensor is come together to detect safety of passenger or driver by giving safety alarms and warnings it can also control the speed limit by its own. It can be monitored by nominees using GPS and IOT also.
+                                Project Mentor: Dr. J. Selvakumar, Professor., Dept of CSE
+                            `;
+                    break;
+                case 'cancer':
+                    title = "Cancer Detection using AI&ML (MAR 2021)";
+                    details = ` 
+                                Cancer Detection using AI&MLProject
+                                                                
+                                Using AI&ML on Cancer detection using photographic image by AI it compares samples of cancer samples with our user blood and compares them both and gives the result on them.
+                                                                 Project Mentor: Dr. J. Selvakumar, Professor., Dept of CSE
+                            `;
+                    break;
+                case 'agriculture':
+                    title = "Automated Agriculture and Monitoring (AUG 2019)";
+                    details = `
+                                Automated Agriculture and Monitoring
+                                                              
+                                Automated robots for Agriculture work and monitoring through drone systems with IOT systems for pesticide, and urea spray system. Two-way motor to maintain sufficient level of water moister.
+                                                                 Project Mentor: Dr. R. Madhumathi, Assistant Professor, Dept of CSE
+                            `;
+                    break;
+                default:
+                    return;
+            }
+
+            document.getElementById('projectPopupTitle').innerHTML = title;
+            document.getElementById('projectPopupDetails').innerHTML = details;
+            document.getElementById('projectPopup').style.display = 'block';
+            document.getElementById('popupOverlay').style.display = 'block';
+        }
+
+        function hideProjectPopup() {
+            document.getElementById('projectPopup').style.display = 'none';
+            document.getElementById('popupOverlay').style.display = 'none';
+        }
+
+        // Address Popup
+        function showAddressPopup() {
+            document.getElementById('addressPopup').style.display = 'block';
+            document.getElementById('popupOverlay').style.display = 'block';
+        }
+
+        function hideAddressPopup() {
+            document.getElementById('addressPopup').style.display = 'none';
+            document.getElementById('popupOverlay').style.display = 'none';
+        }
+
+        // Contact Popup
+        function showContactPopup() {
+            document.getElementById('contactPopup').style.display = 'block';
+            document.getElementById('popupOverlay').style.display = 'block';
+        }
+
+        function hideContactPopup() {
+            document.getElementById('contactPopup').style.display = 'none';
+            document.getElementById('popupOverlay').style.display = 'none';
+        }
+
+        // Event Listeners for Project Details Buttons (now icons)
+        document.addEventListener('DOMContentLoaded', function () {
+
+        });
+    </script>
+
+    <div id="addressPopup" class="popup">
+        <p>
+            <strong>Tech Leads IT Training</strong><br>
+            44/A, #302, Floor no: 3, Geetanjali Apartments,<br>
+            Opp Bahar Cafe, SR Nagar, Hyderabad.
+        </p>
+        <button onclick="hideAddressPopup()">Close</button>
+    </div>
+
+</body>
+
+</html>
